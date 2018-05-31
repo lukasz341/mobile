@@ -42,6 +42,10 @@ body {
     cursor: pointer;
     float: right;
 }
+
+.todo-form-button {
+    margin-bottom: 5px;
+}
 .todo-form-button:hover {
     background: rgb(64, 105, 238);
 }
@@ -54,12 +58,13 @@ body {
     padding:1rem 2rem;
 }
 .todo-list-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   // display: flex;
+    //justify-content: space-between;
+   // align-items: center;
 }
 .todo-list-search-form {
-    width:70%;
+    //width:70%;
+    padding: 5px;
 }
 .todo-list-search {
     border:1px solid #ddd;
@@ -77,7 +82,7 @@ body {
 .todo-element {
     border-top:1px solid #ddd;
     margin-top:1rem;
-    padding-top:2rem;
+    padding-top:1rem;
     padding-bottom: 2rem;
 }
 .todo-element-bar {
@@ -115,7 +120,9 @@ body {
 }
 
 #clear-button {
-	margin: 5px;
+    
+    float: none;
+    margin: 5px;
 }
 
 @media screen and (max-width: 640px) {
@@ -125,6 +132,7 @@ body {
   }
   
   #clear-button {
-	margin: 5px;
+   // margin: 5px;
+    
 }
 }
