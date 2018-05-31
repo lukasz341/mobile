@@ -64,7 +64,8 @@ body {
 .todo-list-search {
     border:1px solid #ddd;
     padding:0.5rem;
-    width: 50%;
+    width: 100%;
+    margin-left: 5px;
 }
 .todo-list-title {
     margin-top:0;
@@ -111,6 +112,10 @@ body {
 .todo-element-text {
     color:#777;
     font-size: 18px;
+}
+
+#clear-button {
+	margin: 5px;
 }
 
 @media screen and (max-width: 640px) {
